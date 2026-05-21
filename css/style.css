@@ -142,19 +142,27 @@ button { cursor: pointer; font-family: inherit; border: none; background: none; 
 .announcement-bar__track {
   display: flex;
   align-items: center;
-  justify-content: center;
+  width: max-content;
   height: 100%;
   gap: 3rem;
+  padding-inline-start: 3rem;
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
-  animation: marquee-rtl 18s linear infinite;
+  animation: marquee-rtl 30s linear infinite;
   white-space: nowrap;
 }
+[dir="rtl"] .announcement-bar__track {
+  animation-name: marquee-rtl;
+}
 @keyframes marquee-rtl {
-  0%   { transform: translateX(-33.333%); }
-  100% { transform: translateX(33.333%); }
+  /* Track contains 2 duplicated halves → translating one half (50%) loops seamlessly.
+     In RTL, content reads right-to-left, so we move it positively. */
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .announcement-bar__track { animation: none; }
 }
 
 /* ─── HEADER / NAV ─── */
