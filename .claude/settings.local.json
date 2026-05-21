@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.micro-scooters.co.uk)",
+      "mcp__Claude_in_Chrome__tabs_context_mcp",
+      "Bash(curl -s \"https://www.micro-scooters.co.uk/\")",
+      "Bash(curl -s \"https://www.micro-scooters.co.uk/cdn/shop/t/211/assets/global.css?v=114253606387296338711778839151\")",
+      "Bash(grep -oE '#[0-9a-fA-F]{3,8}')",
+      "Bash(/usr/bin/curl -s \"https://www.micro-scooters.co.uk/pages/bcorp\")",
+      "Bash(python3 -c ' *)",
+      "Bash(/usr/bin/curl -s \"https://www.micro-scooters.co.uk/pages/about-micro-scooters\")",
+      "Bash(/usr/bin/curl -s \"https://www.micro-scooters.co.uk/\")",
+      "Bash(/usr/bin/curl -I \"https://www.micro-scooters.co.uk/cdn/shop/t/211/assets/Mark-Pro-Bold.woff2?v=26409966941864268801778837067\")",
+      "mcp__Claude_in_Chrome__list_connected_browsers",
+      "Bash(python3 -m http.server 8765)",
+      "mcp__Claude_in_Chrome__select_browser",
+      "mcp__Claude_in_Chrome__navigate",
+      "mcp__Claude_in_Chrome__browser_batch",
+      "Bash(/usr/bin/grep -c \"<text\" /tmp/check_White__Scooting_Pioneers.svg)",
+      "Bash(/usr/bin/grep -oE 'BUILT TO LAST|2 YEAR|WARRANTY' /tmp/check_White__2_Year_Warranty.svg /tmp/check_White__Scooting_Pioneers.svg)",
+      "Bash(/usr/bin/grep -oE 'BUILT TO LAST|MADE FOR|>[A-Z][A-Z ]+<' /tmp/check_made-for-adventure.svg /tmp/check_usp-planet-friendly.svg /tmp/check_ups-quality-obsessed.svg /tmp/check_White__Scooting_Pioneers.svg)",
+      "Read(//private/tmp/**)",
+      "Bash(/usr/bin/grep -c -i \"built\\\\|last\" /tmp/check_made-for-adventure.svg)",
+      "Bash(/usr/bin/python3 -c ' *)",
+      "Bash(git add *)"
+    ]
+  }
+}

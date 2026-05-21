@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="מדריך בחירת קורקינט מיקרו – איזה קורקינט מתאים לגיל הילד שלכם? המדריך המלא לפי גיל, גובה וניסיון." />
+  <title>מדריך בחירה | מיקרו סקוטרס ישראל</title>
+  <link rel="icon" href="https://www.micro-scooters.co.uk/cdn/shop/files/Logo_32x32_21b16dd1-bada-49b5-b6d8-3a1b259da2ad.png" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ─── ANNOUNCEMENT BAR ─── -->
+<div class="announcement-bar" role="marquee" aria-label="עדכונים">
+  <div class="announcement-bar__track">
+    <span>מיקרו סקוטרס ישראל &nbsp;·&nbsp; קורקינטים שוויצריים מאז 1999</span>
+    <span>מוסמך B Corp &nbsp;·&nbsp; ניטרלי פחמנית &nbsp;·&nbsp; 1% for the Planet</span>
+    <span>מהונדס בשוויץ &nbsp;·&nbsp; עמיד לשנים &nbsp;·&nbsp; חלקים ניתנים להחלפה</span>
+    <span>מיקרו סקוטרס ישראל &nbsp;·&nbsp; קורקינטים שוויצריים מאז 1999</span>
+    <span>מוסמך B Corp &nbsp;·&nbsp; ניטרלי פחמנית &nbsp;·&nbsp; 1% for the Planet</span>
+    <span>מהונדס בשוויץ &nbsp;·&nbsp; עמיד לשנים &nbsp;·&nbsp; חלקים ניתנים להחלפה</span>
+  </div>
+</div>
+
+<!-- ─── HEADER ─── -->
+<header class="site-header" role="banner">
+  <div class="container">
+    <div class="site-header__inner">
+      <button class="site-header__hamburger" id="hamburger" aria-label="פתח תפריט" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+      <a class="site-header__logo" href="index.html" aria-label="מיקרו סקוטרס ישראל">
+        <img src="https://www.micro-scooters.co.uk/cdn/shop/files/header-logo.svg?v=1752490866&width=180"
+             width="180" height="41" alt="Micro Scooters" loading="eager" />
+      </a>
+      <nav class="site-nav" aria-label="ניווט ראשי">
+        <a class="site-nav__item" href="about.html">אודותינו</a>
+        <a class="site-nav__item active" href="guide.html">מדריך בחירה</a>
+        <a class="site-nav__item" href="safety.html">בטיחות</a>
+        <a class="site-nav__item" href="sustainability.html">קיימות</a>
+        <a class="site-nav__item" href="blog.html">בלוג</a>
+      </nav>
+      <div class="site-header__controls" style="min-width:1.625rem;"></div>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-modal="true" aria-label="תפריט ניווט">
+  <div class="container">
+    <div class="mobile-menu__close">
+      <span>תפריט</span>
+      <button id="mobileClose" aria-label="סגור תפריט">✕</button>
+    </div>
+    <a class="mobile-menu__item" href="about.html"><span>אודותינו</span><span>›</span></a>
+    <a class="mobile-menu__item active" href="guide.html"><span>מדריך בחירה</span><span>›</span></a>
+    <a class="mobile-menu__item" href="safety.html"><span>בטיחות</span><span>›</span></a>
+    <a class="mobile-menu__item" href="sustainability.html"><span>קיימות</span><span>›</span></a>
+    <a class="mobile-menu__item" href="blog.html"><span>בלוג</span><span>›</span></a>
+  </div>
+</div>
+
+<!-- ─── PAGE HERO ─── -->
+<div class="page-hero" aria-labelledby="page-title">
+  <div class="page-hero__bg">
+    <picture>
+      <source media="(max-width: 48rem)"
+              srcset="https://www.micro-scooters.co.uk/cdn/shop/files/Scootsafe-tips-Default-Header-Mobile.jpg?width=767 1x" />
+      <source media="(min-width: 48rem)"
+              srcset="https://www.micro-scooters.co.uk/cdn/shop/files/Why-micro-Default-Header-Desktop.jpg?width=1920 1x" />
+      <img src="https://www.micro-scooters.co.uk/cdn/shop/files/Why-micro-Default-Header-Desktop.jpg?width=1920"
+           alt="" loading="eager" fetchpriority="high" width="1920" height="640"
+           style="width:100%;height:100%;object-fit:cover;" />
+    </picture>
+  </div>
+  <div class="page-hero__content">
+    <div class="container">
+      <div class="wrap" style="max-width:46.382rem;">
+        <h1 id="page-title" class="heading-l text-text2">מדריך בחירת קורקינט</h1>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ─── INTRO ─── -->
+<section class="content-section" aria-labelledby="intro-heading">
+  <div class="container">
+    <div class="wrap max-w-2xl mx-auto text-center fade-in">
+      <p class="body-s text-uiGrey400" style="text-transform:uppercase; letter-spacing:0.08em; font-weight:700; margin-bottom:1rem;">
+        5 סיבות לבחור מיקרו
+      </p>
+      <h2 id="intro-heading" class="heading-s text-text1" style="margin-bottom:1.5rem;">
+        כל הקורקינטים שלנו מהונדסים ומעוצבים בשוויץ
+      </h2>
+      <div style="display:grid; grid-template-columns:1fr; gap:0.75rem; text-align:right; max-width:36rem; margin-inline:auto;" class="fade-in">
+        <style>@media(min-width:48rem){.reasons-grid{grid-template-columns:1fr 1fr!important;}}</style>
+        <div style="display:grid; grid-template-columns:1fr; gap:0.75rem;" class="reasons-grid">
+          <div style="display:flex; gap:0.75rem; align-items:flex-start; padding:1rem; background:var(--colour-uiGreyBgLight); border-radius:var(--radius-card);">
+            <span style="font-weight:700; color:var(--colour-secondary); flex-shrink:0;">01</span>
+            <span class="body-r">כל הקורקינטים שלנו מהונדסים ומעוצבים בשוויץ.</span>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start; padding:1rem; background:var(--colour-uiGreyBgLight); border-radius:var(--radius-card);">
+            <span style="font-weight:700; color:var(--colour-secondary); flex-shrink:0;">02</span>
+            <span class="body-r">רכיבה על קורקינט הופכת את הדרך מ-א׳ ל-ב׳ לחינם ולכיף.</span>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start; padding:1rem; background:var(--colour-uiGreyBgLight); border-radius:var(--radius-card);">
+            <span style="font-weight:700; color:var(--colour-secondary); flex-shrink:0;">03</span>
+            <span class="body-r">פעילות גופנית טבעית ויומיומית בלי מנוי לחדר כושר.</span>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start; padding:1rem; background:var(--colour-uiGreyBgLight); border-radius:var(--radius-card);">
+            <span style="font-weight:700; color:var(--colour-secondary); flex-shrink:0;">04</span>
+            <span class="body-r">חוסך זמן בנסיעות יומיומיות לגן, לבית ספר, לחנות.</span>
+          </div>
+          <div style="display:flex; gap:0.75rem; align-items:flex-start; padding:1rem; background:var(--colour-uiGreyBgLight); border-radius:var(--radius-card);">
+            <span style="font-weight:700; color:var(--colour-secondary); flex-shrink:0;">05</span>
+            <span class="body-r">ידידותי לסביבה – פחות רכבים בדרכים, יותר אוויר נקי.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── THE TUMMY BUTTON RULE ─── -->
+<section class="content-section" aria-labelledby="rule-heading">
+  <div class="container">
+    <div class="text-media-grid">
+      <div class="text-media-grid__text fade-in">
+        <p class="label">הכלל הפשוט ביותר</p>
+        <h2 id="rule-heading" class="heading-s text-text1">כלל טבור-הבטן</h2>
+        <div class="wysiwyg body-m text-uiGrey400">
+          <p>
+            הדרך הקלה ביותר לבדוק אם הקורקינט מתאים לגיל הילד:
+            <strong style="color:var(--colour-text-1);">ידית ההיגוי צריכה להגיע לגובה הטבור.</strong>
+          </p>
+          <p>
+            אם הידית נמוכה מדי – הילד ייסחף קדימה. אם גבוהה מדי –
+            הרכיבה תהיה מאומצת ולא נוחה. הטבור הוא נקודת הגובה האידאלית
+            לשליטה ולנוחות.
+          </p>
+          <p>
+            רוב הקורקינטים של מיקרו כוללים ידית מתכווננת –
+            כך תוכלו להתאים לכמה שנים קדימה.
+          </p>
+        </div>
+      </div>
+      <div class="text-media-grid__media fade-in" style="aspect-ratio:4/3;">
+        <img src="https://www.micro-scooters.co.uk/cdn/shop/files/Children-scooter-Media-Grid-16-9_a638c140-8b99-4a60-b2e0-15e47edea946.jpg?width=860"
+             alt="כלל טבור הבטן" loading="lazy" width="860" height="645"
+             style="width:100%;height:100%;object-fit:cover;" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<!-- ─── AGE GROUPS ─── -->
+<section class="content-section bg-uiGreyBgLight" aria-labelledby="ages-heading">
+  <div class="container">
+    <div class="wrap max-w-2xl mx-auto text-center fade-in" style="margin-bottom:3rem;">
+      <p class="body-s text-uiGrey400" style="text-transform:uppercase; letter-spacing:0.08em; font-weight:700; margin-bottom:1rem;">לפי גיל</p>
+      <h2 id="ages-heading" class="heading-s text-text1">מצאו את הקורקינט המתאים</h2>
+    </div>
+
+    <!-- Age 12m-5y -->
+    <div class="text-media-grid" style="margin-bottom:4rem;">
+      <div class="text-media-grid__media fade-in" style="aspect-ratio:5/7; max-height:32rem;">
+        <img src="https://www.micro-scooters.co.uk/cdn/shop/files/Featured-Collection-Tile-18months_7a5b899d-1466-4671-be14-e870f0d07e3a.jpg?width=620"
+             alt="פעוטות" loading="lazy" width="620" height="868"
+             style="width:100%;height:100%;object-fit:cover;" />
+      </div>
+      <div class="text-media-grid__text fade-in">
+        <div style="display:inline-block; background:var(--colour-secondary); color:white; border-radius:9999px; padding:0.25rem 1rem; font-size:0.8125rem; font-weight:700; margin-bottom:1rem;">
+          גיל שנה עד 5
+        </div>
+        <h3 class="heading-xs text-text1">פעוטות ולפני גיל בית ספר</h3>
+        <div class="wysiwyg body-m text-uiGrey400">
+          <p>
+            לגיל הרך אנחנו ממליצים על הסדרה שמתאימה את עצמה לגיל:
+            קורקינטי ישיבה ועמידה, תלת-גלגלי עם מנגנון הסתגלות, ואופני שיווי משקל.
+          </p>
+          <ul style="display:flex; flex-direction:column; gap:0.5rem; padding-right:1.25rem; list-style:disc;">
+            <li><strong>Mini Micro</strong> – הקורקינט התלת-גלגלי הקלאסי, גיל 2–5</li>
+            <li><strong>Mini Micro 4-in-1</strong> – מתחיל כקורקינט ישיבה, גדל עם הילד</li>
+            <li><strong>Mini Micro LED Plus</strong> – עם גלגלי LED מהממים, גיל 2–5</li>
+            <li><strong>Balance Bikes</strong> – אופני שיווי משקל לגיל שנה ומעלה</li>
+          </ul>
+        </div>
+        <p class="body-r text-uiGrey400" style="font-style:italic;">
+          <strong>כלל הבוהן:</strong> הילד עומד על הקורקינט ובוהן הרגל נוגעת ברצפה. הוא מוכן!
+        </p>
+      </div>
+    </div>
+
+    <!-- Age 5-8y -->
+    <div class="text-media-grid" style="margin-bottom:4rem;">
+      <div class="text-media-grid__text fade-in" style="order:2;">
+        <div style="display:inline-block; background:var(--colour-secondary); color:white; border-radius:9999px; padding:0.25rem 1rem; font-size:0.8125rem; font-weight:700; margin-bottom:1rem;">
+          גיל 5 עד 8
+        </div>
+        <h3 class="heading-xs text-text1">ילדי גן ובית ספר</h3>
+        <div class="wysiwyg body-m text-uiGrey400">
+          <p>
+            בגיל הזה ילדים מוכנים לעבור לקורקינטים גדולים יותר עם יותר מהירות ושליטה.
+          </p>
+          <ul style="display:flex; flex-direction:column; gap:0.5rem; padding-right:1.25rem; list-style:disc;">
+            <li><strong>Maxi Micro</strong> – הקורקינט התלת-גלגלי לגיל הבית ספר, גיל 5–12</li>
+            <li><strong>Micro Sprite</strong> – דו-גלגלי קל משקל למתחילים, גיל 5+</li>
+            <li><strong>Micro Cruiser</strong> – גלגלים גדולים לנסיעה חלקה, גיל 6+</li>
+          </ul>
+        </div>
+        <div style="background:var(--colour-uiGreyBackground); border-radius:var(--radius-card); padding:1rem 1.25rem; margin-top:0.5rem;">
+          <p class="body-r" style="font-weight:700; margin-bottom:0.25rem;">Maxi מול Sprite מול Cruiser?</p>
+          <p class="body-s text-uiGrey400">
+            Maxi = תלת-גלגלי, הכי יציב. Sprite = דו-גלגלי, הכי קל. Cruiser = גלגלים גדולים, הכי חלק.
+          </p>
+        </div>
+      </div>
+      <div class="text-media-grid__media fade-in" style="aspect-ratio:5/7; max-height:32rem; order:3;">
+        <img src="https://www.micro-scooters.co.uk/cdn/shop/files/Featured-Collection-Tile-5Years.jpg?width=620"
+             alt="ילדי בית ספר" loading="lazy" width="620" height="868"
+             style="width:100%;height:100%;object-fit:cover;" />
+      </div>
+    </div>
+
+    <!-- Age 8+/Adult -->
+    <div class="text-media-grid">
+      <div class="text-media-grid__media fade-in" style="aspect-ratio:5/7; max-height:32rem;">
+        <img src="https://www.micro-scooters.co.uk/cdn/shop/files/Featured-Collection-Tile-8Years_41831c51-0eee-4a1d-8df9-4ed3cefdbfd0.jpg?width=620"
+             alt="גיל 8 ומבוגרים" loading="lazy" width="620" height="868"
+             style="width:100%;height:100%;object-fit:cover;" />
+      </div>
+      <div class="text-media-grid__text fade-in">
+        <div style="display:inline-block; background:var(--colour-secondary); color:white; border-radius:9999px; padding:0.25rem 1rem; font-size:0.8125rem; font-weight:700; margin-bottom:1rem;">
+          גיל 8+ ומבוגרים
+        </div>
+        <h3 class="heading-xs text-text1">נוער ומבוגרים</h3>
+        <div class="wysiwyg body-m text-uiGrey400">
+          <p>
+            קורקינט מיקרו הוא לא רק לילדים. גם מבוגרים מגלים מחדש את כיף הרכיבה –
+            לנסיעות עירוניות, לפנאי ולעמלות יומיומיות.
+          </p>
+          <ul style="display:flex; flex-direction:column; gap:0.5rem; padding-right:1.25rem; list-style:disc;">
+            <li><strong>Micro Sprite (גדול)</strong> – קל ומהיר, לנוער ומבוגרים</li>
+            <li><strong>Micro Speed+</strong> – גלגלים גדולים, מהיר, לנסיעות ארוכות</li>
+            <li><strong>קורקינטי סטונט</strong> – לאלה שרוצים טריקים ופארקים</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SCOOTER TYPES COMPARISON ─── -->
+<section class="content-section" aria-labelledby="types-heading">
+  <div class="container">
+    <div class="wrap max-w-2xl mx-auto text-center fade-in" style="margin-bottom:3rem;">
+      <p class="body-s text-uiGrey400" style="text-transform:uppercase; letter-spacing:0.08em; font-weight:700; margin-bottom:1rem;">סוגי קורקינטים</p>
+      <h2 id="types-heading" class="heading-s text-text1">מה ההבדל בין הסוגים?</h2>
+    </div>
+
+    <div style="display:grid; grid-template-columns:1fr; gap:1rem;" class="fade-in">
+      <style>@media(min-width:48rem){.types-grid{grid-template-columns:repeat(3,1fr)!important;}}</style>
+      <div style="display:grid; grid-template-columns:1fr; gap:1rem;" class="types-grid">
+
+        <div style="border:1px solid var(--colour-uiGreyBorder); border-radius:var(--radius-card); overflow:hidden;">
+          <div style="aspect-ratio:4/3; overflow:hidden; background:var(--colour-uiGrey200);">
+            <img src="https://www.micro-scooters.co.uk/cdn/shop/files/Featured-Collection-Tile-18months_7a5b899d-1466-4671-be14-e870f0d07e3a.jpg?width=600"
+                 alt="" loading="lazy" width="600" height="450" style="width:100%;height:100%;object-fit:cover;" />
+          </div>
+          <div style="padding:1.5rem;">
+            <p style="font-size:0.75rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--colour-uiGrey400); margin-bottom:0.5rem;">תלת-גלגלי</p>
+            <h3 class="heading-xxs text-text1" style="margin-bottom:0.75rem;">הכי יציב – למתחילים</h3>
+            <p class="body-r text-uiGrey400">
+              שלושה גלגלים מעניקים יציבות מקסימלית. מושלם לגיל 2–5.
+              פונה עם הגוף – לא עם הידיים – מה שמפתח קואורדינציה טבעית.
+            </p>
+          </div>
+        </div>
+
+        <div style="border:1px solid var(--colour-uiGreyBorder); border-radius:var(--radius-card); overflow:hidden;">
+          <div style="aspect-ratio:4/3; overflow:hidden; background:var(--colour-uiGrey200);">
+            <img src="https://www.micro-scooters.co.uk/cdn/shop/files/Featured-Collection-Tile-5Years.jpg?width=600"
+                 alt="" loading="lazy" width="600" height="450" style="width:100%;height:100%;object-fit:cover;" />
+          </div>
+          <div style="padding:1.5rem;">
+            <p style="font-size:0.75rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--colour-uiGrey400); margin-bottom:0.5rem;">דו-גלגלי</p>
+            <h3 class="heading-xxs text-text1" style="margin-bottom:0.75rem;">הכי מהיר – לרוכבים מנוסים</h3>
+            <p class="body-r text-uiGrey400">
+              שני גלגלים – כמו אופניים. מהיר, קל, ומתאים לגיל 5+.
+              דורש יותר שיווי משקל אבל מספק יותר מהירות וחופש.
+            </p>
+          </div>
+        </div>
+
+        <div style="border:1px solid var(--colour-uiGreyBorder); border-radius:var(--radius-card); overflow:hidden;">
+          <div style="aspect-ratio:4/3; overflow:hidden; background:var(--colour-uiGrey200);">
+            <img src="https://www.micro-scooters.co.uk/cdn/shop/files/Featured-Collection-Tile-8Years_41831c51-0eee-4a1d-8df9-4ed3cefdbfd0.jpg?width=600"
+                 alt="" loading="lazy" width="600" height="450" style="width:100%;height:100%;object-fit:cover;" />
+          </div>
+          <div style="padding:1.5rem;">
+            <p style="font-size:0.75rem; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; color:var(--colour-uiGrey400); margin-bottom:0.5rem;">גלגלים גדולים</p>
+            <h3 class="heading-xxs text-text1" style="margin-bottom:0.75rem;">הכי חלק – לנסיעות ארוכות</h3>
+            <p class="body-r text-uiGrey400">
+              גלגלים גדולים בולעים פגמי מדרכה. נוח יותר לנסיעות ארוכות,
+              לגיל 8+ ומבוגרים.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── HELMET SECTION ─── -->
+<section class="content-section bg-uiGreyBgLight" aria-labelledby="helmets-heading">
+  <div class="container">
+    <div class="text-media-grid">
+      <div class="text-media-grid__text fade-in">
+        <p class="label">אל תשכחו את הקסדה</p>
+        <h2 id="helmets-heading" class="heading-s text-text1">
+          קורקינט + קסדה = שלמות
+        </h2>
+        <div class="wysiwyg body-m text-uiGrey400">
+          <p>
+            קסדה היא לא אופציה – היא חלק בלתי נפרד מהציוד.
+            קסדות מיקרו מתוכננות להתאים לגדילה, נוחות לאורך שעות,
+            ועומדות בתקנים הבינלאומיים הגבוהים ביותר.
+          </p>
+          <p>
+            <strong>איך לבחור קסדה?</strong><br/>
+            מדדו את היקף הראש עם סרט מדידה. הקסדה צריכה לשבת
+            שני אצבעות מעל הגבות – לא לנוע ימינה ושמאלה.
+          </p>
+        </div>
+        <a href="safety.html" class="btn btn--primary">מדריך הבטיחות המלא</a>
+      </div>
+      <div class="text-media-grid__media fade-in" style="aspect-ratio:4/3;">
+        <img src="https://www.micro-scooters.co.uk/cdn/shop/files/Featured-Collection-Tile-Helmets.jpg?width=860"
+             alt="קסדות מיקרו" loading="lazy" width="860" height="645"
+             style="width:100%;height:100%;object-fit:cover;" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── QUICK GUIDE TABLE ─── -->
+<section class="content-section" aria-labelledby="table-heading">
+  <div class="container">
+    <div class="wrap max-w-2xl mx-auto text-center fade-in" style="margin-bottom:2rem;">
+      <h2 id="table-heading" class="heading-s text-text1">סיכום מהיר לפי גיל</h2>
+    </div>
+    <div style="overflow-x:auto;" class="fade-in">
+      <table style="width:100%; border-collapse:collapse; font-size:0.875rem;">
+        <thead>
+          <tr style="background:var(--colour-secondary); color:white;">
+            <th style="padding:1rem; text-align:right; font-weight:700;">גיל</th>
+            <th style="padding:1rem; text-align:right; font-weight:700;">קורקינטים מומלצים</th>
+            <th style="padding:1rem; text-align:right; font-weight:700;">מאפיינים עיקריים</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--colour-uiGreyBorder); background:var(--colour-uiGreyBgLight);">
+            <td style="padding:1rem; font-weight:700; white-space:nowrap;">שנה–2</td>
+            <td style="padding:1rem;">Balance Bikes, Ride-on</td>
+            <td style="padding:1rem; color:var(--colour-uiGrey500);">ישיבה, שיווי משקל, גלגלים רחבים</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--colour-uiGreyBorder);">
+            <td style="padding:1rem; font-weight:700; white-space:nowrap;">2–5</td>
+            <td style="padding:1rem;">Mini Micro, Mini 4-in-1</td>
+            <td style="padding:1rem; color:var(--colour-uiGrey500);">תלת-גלגלי, פנייה עם הגוף, ידית מתכווננת</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--colour-uiGreyBorder); background:var(--colour-uiGreyBgLight);">
+            <td style="padding:1rem; font-weight:700; white-space:nowrap;">5–8</td>
+            <td style="padding:1rem;">Maxi Micro, Sprite, Cruiser</td>
+            <td style="padding:1rem; color:var(--colour-uiGrey500);">גדול יותר, מהיר יותר, דו-גלגלי זמין</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--colour-uiGreyBorder);">
+            <td style="padding:1rem; font-weight:700; white-space:nowrap;">8–12</td>
+            <td style="padding:1rem;">Maxi Micro, Sprite Deluxe</td>
+            <td style="padding:1rem; color:var(--colour-uiGrey500);">מהיר, עמיד, גלגלים גדולים יותר</td>
+          </tr>
+          <tr style="background:var(--colour-uiGreyBgLight);">
+            <td style="padding:1rem; font-weight:700; white-space:nowrap;">מבוגרים</td>
+            <td style="padding:1rem;">Speed+, Sprite Adult</td>
+            <td style="padding:1rem; color:var(--colour-uiGrey500);">גלגלים גדולים, מתקפל, עמיד לעומסים</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ─── CTA ─── -->
+<section class="feature-highlight" aria-labelledby="cta-heading">
+  <div class="container">
+    <div class="wrap max-w-2xl mx-auto text-center fade-in">
+      <h2 id="cta-heading" class="heading-s text-text2" style="margin-bottom:1rem;">
+        עדיין לא בטוחים?
+      </h2>
+      <p class="body-m text-text2" style="opacity:0.8; margin-bottom:2rem; max-width:36rem; margin-inline:auto;">
+        בקרו בבלוג שלנו למדריכים נוספים, השוואות מפורטות, וטיפים מהשטח.
+      </p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="blog.html" class="btn btn--outline-white btn--lg">לבלוג ולמדריכים</a>
+        <a href="safety.html" class="btn btn--outline-white btn--lg">מדריך הבטיחות</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ─── FOOTER ─── -->
+<footer class="site-footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-logo">
+          <img src="https://www.micro-scooters.co.uk/cdn/shop/files/header-logo.svg?v=1752490866&width=180"
+               alt="Micro Scooters" width="140" height="32" />
+        </div>
+        <p class="footer-about">קורקינטים שוויצריים מובילים לחיים טובים ובריאים יותר.</p>
+      </div>
+      <div>
+        <p class="footer-col__heading">ניווט</p>
+        <div class="footer-col__links">
+          <a href="about.html">אודותינו</a>
+          <a href="guide.html">מדריך בחירה</a>
+          <a href="safety.html">בטיחות</a>
+          <a href="sustainability.html">קיימות</a>
+          <a href="blog.html">בלוג</a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-col__heading">קיימות</p>
+        <div class="footer-col__links">
+          <a href="sustainability.html#bcorp">B Corp</a>
+          <a href="sustainability.html#carbon">ניטרלי פחמנית</a>
+          <a href="sustainability.html#scooteraid">ScooterAid</a>
+        </div>
+      </div>
+      <div>
+        <p class="footer-col__heading">מיקרו בעולם</p>
+        <div class="footer-col__links">
+          <a href="https://www.micro-scooters.co.uk" target="_blank" rel="noopener">מיקרו UK ↗</a>
+          <a href="https://www.micro-scooters.ie" target="_blank" rel="noopener">מיקרו אירלנד ↗</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 מיקרו סקוטרס ישראל. כל הזכויות שמורות.</span>
+      <div class="footer-certs">
+        <span class="footer-cert">✓ B Corp</span>
+        <span class="footer-cert">🌿 ניטרלי פחמנית</span>
+        <span class="footer-cert">1% for the Planet</span>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
