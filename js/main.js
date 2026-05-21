@@ -37,6 +37,18 @@ if ('IntersectionObserver' in window) {
 }
 
 // ── Animated count-up ────────────────────────────────────────────────────────
+function formatCount(value, decimals) {
+  // Compact form for ≥ 1M so 2,000,000 renders as "2M" not "2,000,000".
+  if (decimals === 0 && value >= 1_000_000) {
+    const m = value / 1_000_000;
+    return (m % 1 === 0 ? m.toFixed(0) : m.toFixed(1)) + 'M';
+  }
+  return value.toLocaleString('en-US', {
+    minimumFractionDigits: decimals,
+    maximumFractionDigits: decimals,
+  });
+}
+
 function countUp(el) {
   const target = parseFloat(el.dataset.count);
   const suffix = el.dataset.suffix || '';
@@ -46,7 +58,7 @@ function countUp(el) {
   const step = now => {
     const p = Math.min((now - start) / duration, 1);
     const ease = 1 - Math.pow(1 - p, 3);
-    el.textContent = (ease * target).toFixed(decimals) + suffix;
+    el.textContent = formatCount(ease * target, decimals) + suffix;
     if (p < 1) requestAnimationFrame(step);
   };
   requestAnimationFrame(step);
